@@ -5,16 +5,16 @@ import requests
 import json
 import pusher
 import yaml
-from languagemiddleware import LanguageMiddleware
-application = my_wsgi_app()
-application = LanguageMiddleware(
-application,
-default_language = 'en',
-valid_languages = ('en', 'es', 'de'),
-clean_url = True,
-locale_path = 'C:/Users/MiTra/Desktop/chatbot/locales',
-locale_name = 'dialogues'
-)
+#from language_middleware import LanguageMiddleware
+#application = my_wsgi_app()
+#application = LanguageMiddleware(
+#application,
+#default_language = 'en',
+#valid_languages = ('en', 'es', 'de'),
+#clean_url = True,
+#locale_path = 'C:/Users/MiTra/Desktop/chatbot/locales',
+#locale_name = 'dialogues'
+#)
 pusher_client = pusher.Pusher(
         app_id=os.getenv('PUSHER_APP_ID'),
         key=os.getenv('PUSHER_KEY'),
