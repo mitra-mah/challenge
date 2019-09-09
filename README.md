@@ -1,6 +1,6 @@
 # challenge
-new Repository 
-create a Chatbot using Pusher Channels, JavaScript, Dialogflow, Ngrok Flask. 
+ 
+we tried to create a Chatbot using Pusher Channels, JavaScript, Dialogflow, Ngrok Flask. 
 Creating a virtual environment in python and activate the virtualenv with the below command:
  env/Scripts/activate
 in Flask environment, add the following to the .flaskenv file:
